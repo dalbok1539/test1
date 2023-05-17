@@ -21,7 +21,7 @@ class Game:
         self.screen = pygame.display.set_mode(WINDOW_SIZE, 0, 32)
         self.screen_scaled = pygame.Surface((WINDOW_SIZE[0] / 4, WINDOW_SIZE[1] / 4))        # 확대한 스크린
 
-        self.camera_scroll = [TILE_MAPSIZE[0] * 4, 0]              # 카메라 이동 좌표
+        self.camera_scroll = [TILE_MAPSIZE[0] * 4, 0]           # 카메라 이동 좌표
 
         self.gameScore = 0       # 점수
 
