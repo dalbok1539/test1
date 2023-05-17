@@ -8,6 +8,7 @@ from datafile import *
 from pygame.locals import *
 import pygame.mixer
 
+print("바보")
 # 게임 클래스
 class Game:
     def __init__(self):
